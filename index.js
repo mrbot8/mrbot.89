@@ -51,9 +51,9 @@ const { ind } = require('./language')
 /********** MENU SETTING **********/
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:MEU CRIADOR🙈\n' 
+            + 'FN:LIGHT CRIADOR🙈\n' 
             + 'ORG: SAYO;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=556181496039:+55 61 8149-6039\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=33622007411:+33 6 22 00 74 11\n' 
             + 'END:VCARD' 
 blocked = []   
 fake = 'Akame'
