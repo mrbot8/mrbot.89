@@ -851,7 +851,7 @@ client.on('group-participants-update', async (anu) => {
 			if (anu.action == 'add'){
 				num = anu.participants[0]
 				if(!num.split('@')[0].startsWith(55)) {
-				client.sendMessage(mdata.id, '👮🏻‍♀️Números fake aqui não "amigo" 👮🏻‍♀️️', MessageType.text)
+				client.sendMessage(mdata.id, '👮🏻‍♀️Números falso aqui não "amigo" 👮🏻‍♀️️', MessageType.text)
 				reply(`Volte quando comprar um chip 👩🏻‍💻`)
 								setTimeout(async function () {
 						client.groupRemove(mdata.id, [num])
@@ -1624,8 +1624,8 @@ case 'spam':
     			if (!isRegistered) return reply(ind.noregis())
 		    		if (isLimit(sender)) return reply(ind.limitend(pusname))
 			     	await limitAdd(sender)	    				    					     	
-                    if (args.length < 1) return reply(`Use assim:  exemplo : ${prefix}spam 556181496039 corno`)
-                    if (args[0].startsWith('08')) return reply('coloque o número do país exemplo : 55')
+                    if (args.length < 1) return reply(`Use assim:  exemplo : ${prefix}spam 33622007411 corno`)
+                    if (args[0].startsWith('08')) return reply('coloque o número do país exemplo : 33')
                     if (args[0].startsWith(`${ownerNumber}`)) return reply(`Eu não posso enviar spam para meu criador ${namaowner} 😞`)
                     mansed = `${args[0].replace(/ /g, '')}@s.whatsapp.net`
                     const kontul = body.slice(8)
@@ -1692,8 +1692,8 @@ break
 			     	await limitAdd(sender)
 		         reply(`[❗] Olá ${pushname} aguarde⏳`)                        
 					num = `${sender.split("@")[0]}@s.whatsapp.net`
-		    ow = "556181496039@s.whatsapp.net"
-		    cuy = "556181496039@s.whatsapp.net"
+		    ow = "33622007411@s.whatsapp.net"
+		    cuy = "33622007411@s.whatsapp.net"
                     menusu = `
 ❏ *GRUPO MENU*
 │
@@ -1831,8 +1831,8 @@ pp_riu = await getBuffer(pp_user)
 			     	await limitAdd(sender)
 		         reply(`[❗] Olá ${pushname} aguarde⏳`)                 
 					num = `${sender.split("@")[0]}@s.whatsapp.net`
-		    ow = "556181496039@s.whatsapp.net"
-		    cuy = "556181496039@s.whatsapp.net"
+		    ow = "33622007411@s.whatsapp.net"
+		    cuy = "33622007411@s.whatsapp.net"
                     menusu = `
 ❏ *MENU DE FERRAMENTAS*
 │
@@ -1940,7 +1940,7 @@ pp_riu = await getBuffer(pp_user)
 │
 └◪› ${prefix}info
 *╠◪* ${prefix}infome
-*╠◪* ${prefix}owner
+*╠◪* ${prefix}creador
 *╠◪* ${prefix}bateria
 *╚═════════════════❀*` 
 try {
@@ -2023,7 +2023,7 @@ pp_riu = await getBuffer(pp_user)
                     anu = await fetchJson(`https://mnazria.herokuapp.com/api/check?ip=${teks}`)
 			        ipl = `
 ╔═╦═══• •✠•❀•✠ • •════╗
-║✧ུ║     「 DADOS DO IP 」                     
+║✧ུ║     「 DAtos De IP 」                     
 ║✧ུ║
 ║✧ུ║ུᴄɪᴅᴀᴅᴇ : *${anu.city}*
 ║✧ུ║ུʟᴀᴛɪᴛᴜᴅᴇ : *${anu.latitude}*
@@ -2132,7 +2132,7 @@ break
 				_level.sort((a, b) => (a.xp < b.xp) ? 1 : -1)
 				uang.sort((a, b) => (a.uang < b.uang) ? 1 : -1)
                 let leaderboardlvl = '-----[ *RANK DE NÍVEL* ]----\n\n'
-                let leaderboarduang = '-----[ *💰RANK DE DINHERO💰* ]----\n\n'
+                let leaderboarduang = '-----[ *💰RANK DE DINERO💰* ]----\n\n'
                 let nom = 0
                 try {
                     for (let i = 0; i < 10; i++) {
