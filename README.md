@@ -1,8 +1,8 @@
 ## Instalação do Bot🤖
 
-```
+``https://github.com/mrbot8/mrbot.89`
 pkg install git
-git clone https://github.com/KRATOSmdzkk23/Akame-bot
+
 cd Akame-bot
 bash install.sh
 npm i encodeurl
