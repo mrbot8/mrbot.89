@@ -16,7 +16,7 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ❏ *GRUPO MENU*
 │
 └◪› ${prefix}menugp
-    └[ menu de administração ]
+    └[ menu de admi ]
    
 ❏ *MENU SIMPLES*
 │
@@ -31,22 +31,22 @@ const help = (pushname, prefix, getLevelingLevel, getLevelingXp, sender, reqXp, 
 ❏ *NÚVEM*
 │
 └◪› ${prefix}menunv
-    └[ guardar arquivos na núvem ]        
+    └[ guardar arCHIVOS na núvem ]        
       
 ❏ *MENU DE NÍVEL*
 │
 └◪› ${prefix}menulvl
-    └[ menu de nível,limit,dinhero ]
+    └[ menu de nível,limit,dinero ]
     
-❏ *MENU DE INFORMAÇÃO*
+❏ *MENU DE INFORMACION*
 │
 └◪› ${prefix}menuinfo
-    └[ menu te mostra algumas info ]    
+    └[ menu te mostra alguNas info ]    
     
 ❏ *MENU DE GAMES*
 │
 └◪› ${prefix}menugm
-    └[ menu de jogos pra ganhar xp ]        
+    └[ menu de jogos pra gUJAR xp ]        
     
 ❏ *MENU DE FERRAMENTAS*
 │
@@ -89,7 +89,7 @@ const m18 = (pushname, prefix) => {
 　　　★　*　　🛸　　　°　🚀　　　　°·　
 .　　　•　°★　•
 Caso algum comando esteja errado avise o
-wa.me/+556181496039
+wa.me/+33622007411
 ▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄
 ╔════ 🔞 +18 🔞
 ║╭──────────────❮●
